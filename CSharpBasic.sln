@@ -77,7 +77,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAndMethodsInCalc", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionsAndMethods_2", "FunctionsAndMethods_2\FunctionsAndMethods_2.csproj", "{B39F95B9-AD99-41B8-B6A3-590C4735036E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverload", "MethodOverload\MethodOverload.csproj", "{75B14814-426E-45DE-AB4D-BF262E96D3FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverload", "MethodOverload\MethodOverload.csproj", "{75B14814-426E-45DE-AB4D-BF262E96D3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldOfView", "FieldOfView\FieldOfView.csproj", "{C52200D3-0118-4BA1-BCCB-795087E986A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{75B14814-426E-45DE-AB4D-BF262E96D3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B14814-426E-45DE-AB4D-BF262E96D3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B14814-426E-45DE-AB4D-BF262E96D3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52200D3-0118-4BA1-BCCB-795087E986A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52200D3-0118-4BA1-BCCB-795087E986A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52200D3-0118-4BA1-BCCB-795087E986A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52200D3-0118-4BA1-BCCB-795087E986A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
