@@ -85,6 +85,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceAndValueTypes", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null", "Null\Null.csproj", "{8F3AFB5E-7926-4655-8258-AF437105B950}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullIntegration", "NullIntegration\NullIntegration.csproj", "{AB7461B9-8BEA-4507-BD29-7EDA4889E669}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{8F3AFB5E-7926-4655-8258-AF437105B950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F3AFB5E-7926-4655-8258-AF437105B950}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F3AFB5E-7926-4655-8258-AF437105B950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7461B9-8BEA-4507-BD29-7EDA4889E669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7461B9-8BEA-4507-BD29-7EDA4889E669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7461B9-8BEA-4507-BD29-7EDA4889E669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7461B9-8BEA-4507-BD29-7EDA4889E669}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
