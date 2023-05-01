@@ -13,18 +13,9 @@ namespace CrossProject
 
         static void Main(string[] args)
         {
-            string str = null;
+            string str = "test";
 
-            string result;
-            if (true == null)
-            {
-                result = "Нет данных";
-            }
-            else
-            {
-                result = str;
-            }
-            WriteLine(result);
+            WriteLine(str ?? "нет данных");
         }
 
 
