@@ -79,9 +79,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionsAndMethods_2", "Fu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverload", "MethodOverload\MethodOverload.csproj", "{75B14814-426E-45DE-AB4D-BF262E96D3FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldOfView", "FieldOfView\FieldOfView.csproj", "{C52200D3-0118-4BA1-BCCB-795087E986A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldOfView", "FieldOfView\FieldOfView.csproj", "{C52200D3-0118-4BA1-BCCB-795087E986A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceAndValueTypes", "ReferenceAndValueTypes\ReferenceAndValueTypes.csproj", "{3B2AA0D0-D294-4BA2-94A6-08E7291F29FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceAndValueTypes", "ReferenceAndValueTypes\ReferenceAndValueTypes.csproj", "{3B2AA0D0-D294-4BA2-94A6-08E7291F29FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null", "Null\Null.csproj", "{8F3AFB5E-7926-4655-8258-AF437105B950}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{3B2AA0D0-D294-4BA2-94A6-08E7291F29FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B2AA0D0-D294-4BA2-94A6-08E7291F29FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B2AA0D0-D294-4BA2-94A6-08E7291F29FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3AFB5E-7926-4655-8258-AF437105B950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3AFB5E-7926-4655-8258-AF437105B950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3AFB5E-7926-4655-8258-AF437105B950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3AFB5E-7926-4655-8258-AF437105B950}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
