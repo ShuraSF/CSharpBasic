@@ -12,15 +12,19 @@ namespace CrossProject
     // опертор присваивания ??=
     class Program
     {
+        static int[] GetArray()
+        {
+            int[] myArray = new int[11];
+
+            return myArray;
+        }
         static void Main(string[] args)
         {
-            string str = null;
+            int[] myArray = GetArray();
 
-            str ??= string.Empty;
+            myArray ??= new int[0];
 
-            string result = str ??= "default string";
-
-            WriteLine($"Количество символов в строке {result.Length}");
+            WriteLine($"Кол-во элементов в массиве {myArray.Length}");
         }
     }
 }
