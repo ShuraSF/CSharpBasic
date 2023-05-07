@@ -7,29 +7,20 @@ using static System.Console;
 
 namespace CrossProject
 {
-    class Program
+    public class Program
     {
         static Person GetPerson()
         {
-            Person person = new Person();
+            Person person = new Person() { Contacts = new Contacts() { PhoneNumber = "241251255" } };
             return person;
         }
         static void Main(string[] args)
         {
             Person person = GetPerson();
 
-            if (person != null && person.Contacts != null)
-            {
-                if (person.Contacts != null)
-                {
-                    string phoneNumber = person.Contacts.PhoneNumber;
+            string phoneNumber = person.Contacts.PhoneNumber;
 
-                    WriteLine(phoneNumber);
-                }
-            }
-            WriteLine("Нет данных");
+            WriteLine(phoneNumber);
         }
-
-
     }
 }
