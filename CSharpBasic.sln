@@ -93,7 +93,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalNull", "Conditio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullPersons", "NullPersons\NullPersons.csproj", "{F1ACB91E-E08F-4CF9-8E01-DA8F92DB027B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref", "Ref\Ref.csproj", "{FDB8E006-BE95-4406-8E6B-C41EFCDC28C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ref", "Ref\Ref.csproj", "{FDB8E006-BE95-4406-8E6B-C41EFCDC28C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefLocal", "RefLocal\RefLocal.csproj", "{218BB5D5-63F9-4FA1-A82E-9AAE07F39926}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +287,10 @@ Global
 		{FDB8E006-BE95-4406-8E6B-C41EFCDC28C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDB8E006-BE95-4406-8E6B-C41EFCDC28C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDB8E006-BE95-4406-8E6B-C41EFCDC28C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218BB5D5-63F9-4FA1-A82E-9AAE07F39926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218BB5D5-63F9-4FA1-A82E-9AAE07F39926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218BB5D5-63F9-4FA1-A82E-9AAE07F39926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218BB5D5-63F9-4FA1-A82E-9AAE07F39926}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
