@@ -76,3 +76,5 @@ namespace JanuaryTraining
     }
 }
 // test 23.08.2023
+
+// another test
