@@ -10,9 +10,9 @@ namespace CrossProject
     class program
     {
         
-        static void Resize(ref int[] array, int newSize)
+        static void Resize<T>(ref T[] array, int newSize)
         {
-            int[] newArray = new int[newSize];
+            T[] newArray = new T[newSize];
 
             for (int i = 0; i < array.Length; i++)
             {
@@ -24,6 +24,7 @@ namespace CrossProject
         }
         static void Main(string[] args)
         {
+            string[] strArray = { "test", "hello", "world" };
             int[] myArray = { 1, 4, 6 };
 
             Resize(ref myArray, 10);
