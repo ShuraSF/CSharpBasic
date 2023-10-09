@@ -9,31 +9,24 @@ namespace CrossProject
 {
     class program
     {
-        static void Weapon(ref int Gun)
+        
+        static void Resize(ref int[] array, int newSize)
         {
-            int Gun = int.Parse(ReadLine());
-            switch(Gun)
+            int[] newArray = new int[newSize];
+
+            for (int i = 0; i < array.Length; i++)
             {
-                case 1: WriteLine("Ak-47");
-                    break;
-                case 2: WriteLine("Glock-18");
-                    break;
-                case 3: WriteLine("Coctail molotov");
-                    break;
-                case 4: WriteLine("Knife");
-                    break;
-                case 5: WriteLine("Awp");
-                    break;
-                default: WriteLine("Мусор");
-                    break;
+                newArray[i] = array[i];
             }
-            
+
+            array = newArray;
+
         }
         static void Main(string[] args)
         {
+            int[] myArray = { 1, 4, 6 };
 
-            Weapon(Gun);
-            WriteLine($"Вы получили {Gun}");
+            Resize(ref myArray, 10);
         }
     }
 }
